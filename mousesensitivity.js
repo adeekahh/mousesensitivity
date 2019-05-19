@@ -58,8 +58,8 @@ function mouseMoved() {
     //DRAW SMALL RECTANGLE AT THE X AND Y POS
     ctx.strokeRect(25 + displacementX, 25 + displacementY, 450, 550);
 
-    document.querySelector(".xVal").textContent = xVal;
-    document.querySelector(".yVal").textContent = yVal;
+    document.querySelector(".xVal").textContent = -xVal;
+    document.querySelector(".yVal").textContent = -yVal;
 
     //CALCULATE DISPLACEMENTS WITH MULTIPLYING WITH MAX MOVEMENT
 
